@@ -1,16 +1,57 @@
-# todpapp
+# todoapp
 
-A new Flutter project.
+todoapp is a simple to-do list application built with Flutter. It allows users to create, update, and delete tasks, and it saves the tasks using shared preferences.
+
+## Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Persistent storage using shared preferences
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Included with Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/salah-191135/my_ToDo_app.git
+    cd todpapp
+    ```
+
+2. Install dependencies:
+    ```sh
+    flutter pub get
+    ```
+
+3. Run the app:
+    ```sh
+    flutter run
+    ```
+
+## Project Structure
+
+- : Entry point of the application.
+- : Home page of the application.
+- : Handles data storage and retrieval using shared preferences.
+- : Custom dialog box for adding new tasks.
+- : Custom widget for displaying individual tasks.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+- [Flutter](https://flutter.dev/)
+- [Shared Preferences](https://pub.dev/packages/shared_preferences)
+- [Flutter Slidable](https://pub.dev/packages/flutter_slidable)

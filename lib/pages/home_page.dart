@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:todpapp/data/database.dart'; // Updated ToDoDB class
-import 'package:todpapp/util/dialog_box.dart';
-import 'package:todpapp/util/todo_tile.dart';
+import 'package:todoapp/data/database.dart'; // Updated ToDoDB class
+import 'package:todoapp/util/dialog_box.dart';
+import 'package:todoapp/util/todo_tile.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
